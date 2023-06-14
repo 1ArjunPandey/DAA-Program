@@ -53,7 +53,7 @@ class Solution
         
         for(int i =0; i<n; i++) {
             
-            if(curWeight + arr[i].weight <= W) {
+            if(curWeight + arr[i].weight <= W) { // checking weight should not be extra....
                 curWeight += arr[i].weight;
                 finalValue += arr[i].value;
             }
